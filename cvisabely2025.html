@@ -1,0 +1,224 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currículo de Isabely Miranda Barbosa</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+                background: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            header {
+                background: #007BFF;
+                color: #fff;
+                padding: 10px 0;
+                text-align: center;
+                border-radius: 8px 8px 0 0;
+            }
+
+            .download-btn {
+                display: inline-flex;
+                align-items: center;
+                padding: 10px 20px;
+                background-color: #e63946;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-weight: bold;
+                margin-top: 10px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    
+            .download-btn:hover {
+                background-color: #c1121f;
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    
+            .download-btn i {
+                margin-right: 10px;
+                font-size: 1.2em;
+    }
+
+            h1 {
+                margin: 0;
+            }
+            h2 {
+                color: #007BFF;
+            }
+            .section {
+                margin: 20px 0;
+            }
+            .contact-info {
+                list-style: none;
+                padding: 0;
+            }
+            .contact-info li {
+                margin: 5px 0;
+            }
+            .experience, .education .formation{
+                margin: 10px 0;
+                padding: 10px;
+                background: #f9f9f9;
+                border-left: 5px solid #007BFF;
+            }
+
+            .certificado-btn {
+                display: inline-block;
+                padding: 2px 8px;
+                background-color: #4285F4; /* Azul do Google */
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                margin-top: 5px;
+                transition: all 0.3s ease;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            }
+
+            .certificado-btn:hover {
+                background-color: #3367D6;
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            }
+
+            .footer {
+                text-align: center;
+                margin-top: 20px;
+                font-size: 0.9em;
+                color: #777;
+            }
+        </style>
+    </head>
+    <body>
+            <div class="container">
+    <header>
+        <h1>Isabely Miranda Barbosa</h1>
+        <p>Desenvolvedora Backend | Aparecida de Goiânia - GO</p>
+        <button id="downloadPageBtn" class="download-btn">
+            <i class="fas fa-file-pdf"></i> Baixar Página como PDF
+        </button>
+    </header>         
+            <div class="section">
+                <h2>Informações de Contato</h2>
+                <ul class="contact-info">
+                    <li>
+                        Telefone:
+                    <a href="https://wa.me/5562996707134?text=Olá!%20Vim%20pelo%20seu%20site." target="_blank">(62) 99670-7134</a>
+                    
+                    </li>
+                    <li>
+                        E-mail: 
+                        <a href="mailto:isabelymir04@gmail.com?subject=Contato%20pelo%20site&body=Olá,%20gostaria%20de%20falar%20com%20você.">
+                        isabelymir04@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        LinkedIn: 
+                        <a href="https://www.linkedin.com/in/isabely-dev/" target="_blank">
+                        linkedin.com/in/isabely-dev
+                        </a>
+                    </li>
+                    <li>
+                        GitHub: 
+                        <a href="https://github.com/isamirandadev" target="_blank">
+                        github.com/isamirandadev
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+
+            <div class="section">
+                <p>
+                    <b>Área de Interesse:</b> Tecnologia da Informação, com foco em Desenvolvimento Backend, Análise de Sistemas e Banco de Dados.
+                </p>
+                <p>
+                    <b>Tipo de Contrato Desejado:</b> CLT – Estágio.
+                </p>
+                <p>
+                    <b>Pretensão Salarial:</b> Entre R$ 1.500,00 e R$ 3.000,00 (negociável conforme as responsabilidades e oportunidades de desenvolvimento técnico).
+                </p>
+
+            </div>
+
+            <div class="section education">
+                <h2>Formação</h2>
+                <p>Centro Universitário União das Américas Descomplica</p>
+                <p>Curso: Análise e Desenvolvimento de Sistemas (Incompleto)</p>
+                <p>Início: 06/2024 | Término: 06/2026</p>
+            </div>
+
+            <div class="section experience">
+                <h2>Experiência Profissional</h2>
+                <p><strong>Açaiteria do Pimpolho</strong> - Operadora de caixa (01/2024 - 02/2025)</p>
+                <ul>
+                    <li>Cobrar os clientes;</li>
+                    <li>Atender os clientes do WhatsApp e da loja;</li>
+                    <li>Organizar a loja no final do turno;</li>
+                    <li>Ajudar na contagem das notas dos entregadores.</li>
+                </ul>
+                <p><strong>Pernambucanas</strong> - Jovem aprendiz: Provador (06/2022 - 12/2022)</p>
+                <ul>
+                    <li>Cuidar do provador;</li>
+                    <li>Organizar a loja no fim do turno;</li>
+                    <li>Auxiliar os clientes.</li>
+                </ul>
+            </div>
+            <div class="section formation">
+                <ul>
+                <h2>Formação</h2>
+                    <li><b>Curso:</b> Basic FrontEnd<br></li>
+                    <li><b>Instituição:</b> Descomplica Faculdade Digital<br></li>
+                    <li><b>Conclusão:</b> 29/06/2025<br></li>
+                    <li><b>Carga horária:</b> 240 horas<br></li>
+                    <li><b>Certificado:</b>     <a href="https://drive.google.com/file/d/173dreqduvcXBeSy4Vqhm7N6GgouBJNrj/preview" target="_blank" class="certificado-btn">Visualizar Certificado</a></li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Informações Adicionais</h2>
+                <p>Estudante de Análise e Desenvolvimento de Sistemas (3º semestre) em busca do primeiro emprego na área de tecnologia.</p>
+                <p>Conhecimentos básicos em lógica de programação, Python, Java, banco de dados SQL e noções de desenvolvimento web (HTML, CSS, JavaScript).</p>
+                <p>Facilidade para aprender novas tecnologias, proativa e comprometida com entregas de qualidade.</p>
+            </div>
+
+
+
+            <div class="footer">
+                <p>Powered by Isabely Miranda Barbosa 29-06-2025</p>
+            </div>
+        </div>
+
+<script>
+    document.getElementById('downloadPageBtn').addEventListener('click', function() {
+        const element = document.querySelector('.container');
+        const opt = {
+            margin: 10,
+            filename: 'Isabely_Miranda_CV.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+        };
+
+        html2pdf().set(opt).from(element).save();
+    });
+</script>
+    </body>
+    </html>
